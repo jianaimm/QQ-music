@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+body,
+h2 {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.ALL {
+	width: 120px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title {
+	width: 120px;
+	height: 30px;
+	font: 14px/30px "宋体";
+	background: #f1f;
+}
+.List {
+	width: 120px;
+	height: 0;
+	overflow: hidden;
+	background: #f1f1f1;
+	transition: 1s;
+	opacity: 0;
+}
+.List li {
+	font: 14px/30px "宋体";
+	border-top: 1px solid #fff;
+}
+.ALL:hover .title {
+	background: #f1f1f1;
+}
+.ALL:hover .List {
+	height: 186px;
+	opacity: 1;
+}
+.List li:hover {
+	background: #000;
+	color: #fff;
+}
+</style>
+</head>
+<body>
+<div class="ALL">
+	<h2 class="title">
+		<a href="#">妙味课堂</a>
+	</h2>
+	<ul class="List">
+		<li>学习</li>
+		<li>旅游</li>
+		<li>阅读</li>
+		<li>赏花</li>
+		<li>观鱼</li>
+		<li>品茶</li>
+	</ul>
+</div>
+</body>
+</html>
