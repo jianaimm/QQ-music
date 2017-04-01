@@ -18,7 +18,7 @@ a {
 	color: #000;
 }
 .ALL {
-	width: 120px;
+	width: 150px;
 	margin: 0 auto;
 	text-align: center;
 }
